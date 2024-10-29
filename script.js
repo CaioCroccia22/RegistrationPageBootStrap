@@ -22,11 +22,11 @@ $(document).ready(function(){
             }
         },
         submitHandler: function (form) {
-            alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
+            alert("Congratulations");
             form.reset();
         },
         invalidHandler: function (event, validator) {
-            alert("Por favor, preencha os campos para prosseguir com a compra!");
+            alert("Error, please enter with all fields");
         }
     })
 })
